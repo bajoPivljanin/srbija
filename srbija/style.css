@@ -1,0 +1,97 @@
+*{
+	color: #006b11;
+	margin: 0;
+}
+body{
+	background-color:#e8fc81 ;
+}
+.nav{
+	background-color: #81fc95;
+	
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 0;
+}
+.nav ul li a{
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+.nav ul li a:hover{
+	background-color: #006b11;
+	color: white;
+}
+.leftdiv h1{
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	position: absolute;
+    left: 40vh;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.karta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-image: url('slike/karta.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	position: relative;
+}
+.karta .albanija{
+    position: absolute;
+    bottom: 80px;
+    right: 475px;
+}
+.karta .cg{
+    position: absolute;
+    bottom: 27vh;
+    right: 65vh;
+}
+.karta .bih{
+    position: absolute;
+    bottom: 40vh;
+    right: 70vh;
+}
+.karta .hr{
+    position: absolute;
+    bottom: 65vh;
+    right: 73vh;
+}
+.karta .hu{
+    position: absolute;
+    bottom: 75vh;
+    right: 70vh;
+}
+.karta .ru{
+    position: absolute;
+    bottom: 65vh;
+    right: 25vh;
+}
+.karta .bg{
+    position: absolute;
+    bottom: 35vh;
+    right: 10vh;
+}
+.karta .mkd{
+    position: absolute;
+    bottom: 10vh;
+    right: 25vh;
+}
+footer{
+	background-color: #006b11;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+footer h3{
+	color: white;
+	
+}
